@@ -1,0 +1,13 @@
+@import "/src/color.scss";
+
+.Main{
+    position: absolute;
+    width: 100%;
+    min-width: 100vh;
+    height: 100%;
+    background-color: $fond-color;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 1em;
+}
