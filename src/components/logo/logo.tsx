@@ -1,3 +1,4 @@
+import './logo.scss'
 
 function Logo(): JSX.Element{
     return (
