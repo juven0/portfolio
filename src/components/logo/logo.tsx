@@ -1,9 +1,10 @@
 import './logo.scss'
+import Mylogo from '../../assets/logo/my logo.svg'
 
 function Logo(): JSX.Element{
     return (
         <div className="Logo">
-            <label>My logo</label>
+            <img src={Mylogo} alt="" />
         </div>
     )
 }

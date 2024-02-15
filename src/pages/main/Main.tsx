@@ -9,6 +9,15 @@ function Main(): JSX.Element {
        <div className="Main">
         <Navbar/>
         <div className="left">
+            <div className="welcome">
+                <div className="welcome-message">
+                    <label><span>Hi </span></label>
+                    <br/>
+                    <label>Lorem ipsum dolor sit amet consectetur adipisicing elit.</label>
+                    <br/>
+                    <label>Lorem ipsum dolor sit amet consectetur</label>
+                </div>
+            </div>
             <Social/>
         </div>
         <div className="rigthbg"></div>
