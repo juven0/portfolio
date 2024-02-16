@@ -11,12 +11,17 @@ function Main(): JSX.Element {
         <div className="left">
             <div className="welcome">
                 <div className="welcome-message">
-                    <label><span>Hi </span></label>
+                    <label><span>Hi there! 👋</span></label>
                     <br/>
-                    <label>Lorem ipsum dolor sit amet consectetur adipisicing elit.</label>
+                    <label>I'm Eddy Juveno</label>
                     <br/>
-                    <label>Lorem ipsum dolor sit amet consectetur</label>
+                    <label>a <span>Full-stak developer</span></label>
                 </div>
+                <div className="resume">
+                    <p>I am a full-stack developer passionate about the world of artificial intelligence and algorithms,<br/>
+                         seeking to deepen my skills in this fascinating field while creating innovative solutions.</p>
+                </div>
+                <label className="cv-btn">Download my CV</label>
             </div>
             <Social/>
         </div>
