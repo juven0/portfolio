@@ -51,6 +51,7 @@
                 label:nth-child(1){
                     font-size: 3rem;
                     font-weight: 500;
+                    color: #7c7c7c;
                 }
                 label:nth-child(3){
                     font-size: 4rem;
@@ -95,16 +96,19 @@
         height: 100%;
         width: 30%;
         right: 0;
-        background-color: rgb(240, 251, 255);
+        background-color: rgb(243, 243, 243);
         z-index: 0;
     }
     .me{
         position: absolute;
-        right: 20%;
+        right: 14%;
         width: 22%;
-        bottom: -22%;
+        bottom: -28%;
         img{
             width: 100%;
         }
+    }
+    .wave{
+        width: 100%;
     }
 }

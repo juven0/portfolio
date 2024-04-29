@@ -11,7 +11,7 @@ function Main(): JSX.Element {
         <div className="left">
             <div className="welcome">
                 <div className="welcome-message">
-                    <label><span>Hi there! 👋</span></label>
+                    <label><span>Hi there!👋</span></label>
                     <br/>
                     <label>I'm Eddy Juveno</label>
                     <br/>
