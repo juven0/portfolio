@@ -1,3 +1,6 @@
+@import "/src/color.scss";
+
+
 .About{
     position: relative;
     width: 100%;
@@ -11,4 +14,16 @@
     overflow: hidden;
     margin: 0;
     padding: 0;
+    z-index: 1;
+    .title{
+        z-index: 10;
+        position: absolute;
+        color:$secondary-color;
+        top: 0;
+        left: 5%;
+        span{
+            color: #2baeff;
+            
+        }
+    }
 }

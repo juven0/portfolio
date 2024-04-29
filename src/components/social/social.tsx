@@ -7,6 +7,7 @@ import Linkedin from '../../assets/logo/linkedin-icon-2.svg'
 export default function Social():JSX.Element{
     return(
         <div className="Social">
+            <div className="line"></div>
             <ul>
                 <li>
                     <a href="#">
